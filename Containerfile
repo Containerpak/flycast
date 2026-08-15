@@ -17,5 +17,7 @@ COPY flycast /usr/bin/flycast
 COPY flycast.desktop /usr/share/applications/flycast.desktop
 COPY icon.png /usr/share/icons/hicolor/128x128/apps/flycast.png
 
-RUN chmod 0755 /usr/bin/flycast && cpak-clean-junk
-
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends libasound2t64 && \
+    chmod 0755 /usr/bin/flycast && \
+    cpak-clean-junk
