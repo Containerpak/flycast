@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Flycast
+Comment=Emulate Sega Dreamcast, Naomi and Atomiswave systems.
+Exec=flycast %U
+Icon=flycast
+Terminal=false
+Categories=Game;Emulator;
+
