@@ -4,7 +4,7 @@
   "name": "Flycast",
   "description": "Emulate Sega Dreamcast, Naomi and Atomiswave systems.",
   "version": "2.6",
-  "image": "ghcr.io/containerpak/flycast@sha256:06756bfbf1ad61c866fe605aca1a0cb89292909a5d5be9e0d7025772a8067f0c",
+  "image": "ghcr.io/containerpak/flycast@sha256:9bfb436ad5a019330aac715492b84f60ed43b4be648f41c3b64d9ee47fea7995",
   "binaries": [
     "/usr/bin/flycast"
   ],
